@@ -27,7 +27,6 @@ strings:
 	$ = "-exec" ascii wide nocase
 	$ = "-nop" ascii wide nocase
 	$ = "-noni" ascii wide nocase
-	$ = "-noninteractive" ascii wide nocase
 	$ = "-w hidden" ascii wide nocase
 	$ = "-enc" ascii wide nocase
 	$ = "-decode" ascii wide nocase
