@@ -117,11 +117,13 @@ strings:
 	$ = "cmd.exe" ascii wide nocase
 	$ = "/c echo" ascii wide nocase
 	$ = "/c start" ascii wide nocase
+	$ = "/c set" ascii wide nocase
 	$ = "%COMSPEC%" ascii wide nocase
 	$ = "rundll32.exe" ascii wide nocase
 	$ = "regsvr32.exe" ascii wide nocase
 	$ = "Assembly.Load" ascii wide nocase
 	$ = "[Reflection.Assembly]::Load" ascii wide nocase
+	$ = "process call" ascii wide nocase
 condition:
 	isLNK and any of them
 }
