@@ -98,6 +98,7 @@ strings:
 	$ = ".tar" ascii wide nocase
 	$ = ".lzh" ascii wide nocase
 	$ = ".dat" ascii wide nocase
+	$ = "WinRAR\\Rar.exe" ascii wide nocase
 	$ = "expand" ascii wide nocase
 	$ = "makecab" ascii wide nocase
 	$ = "UEsDBA" ascii wide nocase // ZIP Base64
