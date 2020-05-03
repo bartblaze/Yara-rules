@@ -13,8 +13,8 @@ strings:
 	$bmp = {42 4D}
 	
 	$s1 = "<%@ Page Language=" ascii wide
-	$s2 = "<?php" ascii wide
-	$s = "eval(" ascii wide
+	$s2 = "<?php" ascii wide nocase
+	$s = "eval(" ascii wide nocase
 	
 condition:
 	( $gif at 0 and any of ($s*) ) or 
