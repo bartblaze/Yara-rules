@@ -17,9 +17,6 @@ $ = ".?AVIHookManager@@" ascii wide
 $ = ".?AVIUrlBuilderSource@@" ascii wide
 $ = ".?AVIVirtualAllocationManager@@" ascii wide
 $ = ".?AVMyActivationSource@@" ascii wide
-$ = ".?AVbad_alloc@std@@" ascii wide
-$ = ".?AVexception@std@@" ascii wide
-$ = ".?AVtype_info@@" ascii wide
 
 condition:
 	2 of them
