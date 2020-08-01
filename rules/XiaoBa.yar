@@ -8,9 +8,9 @@ meta:
 
 strings:
 	$ = "BY:TIANGE" ascii wide
-	$ = "Your disk have a lock"
+	$ = "Your disk have a lock" ascii wide
 	$ = "Please enter the unlock password" ascii wide
-	$ = "Please input the unlock password"
+	$ = "Please input the unlock password" ascii wide
 	$ = "I am very sorry that all your files have been encrypted" ascii wide
 
 condition:
