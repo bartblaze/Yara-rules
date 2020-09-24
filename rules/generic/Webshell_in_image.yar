@@ -14,7 +14,9 @@ strings:
 	
 	$s1 = "<%@ Page Language=" ascii wide
 	$s2 = "<?php" ascii wide nocase
-	$s = "eval(" ascii wide nocase
+	$s3 = "eval(" ascii wide nocase
+	$s4 = "<eval" ascii wide nocase
+	$s5 = "<%eval" ascii wide nocase
 	
 condition:
 	( $gif at 0 and any of ($s*) ) or 
