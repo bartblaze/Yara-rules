@@ -5,6 +5,7 @@ meta:
 	author = "@bartblaze"
 	date = "2020-09"
 	tlp = "White"
+
 strings:
 	$ = "#NoTrayIcon" ascii wide
 	$ = "#OnAutoItStartRegister" ascii wide
@@ -15,6 +16,7 @@ strings:
 	$ = ">>>AUTOIT NO CMDEXECUTE<<<" ascii wide
 	$ = ">>>AUTOIT SCRIPT<<<" ascii wide
 	$ = "This is a third-party compiled AutoIt script." ascii wide
+
 condition:
 	uint16(0) == 0x5A4D and any of them
 }
@@ -26,6 +28,7 @@ meta:
 	author = "@bartblaze"
 	date = "2020-09"
 	tlp = "White"
+
 strings:
 	$ = "#NoTrayIcon" ascii wide
 	$ = "#OnAutoItStartRegister" ascii wide
@@ -36,6 +39,7 @@ strings:
 	$ = ">>>AUTOIT NO CMDEXECUTE<<<" ascii wide
 	$ = ">>>AUTOIT SCRIPT<<<" ascii wide
 	$ = "This is a third-party compiled AutoIt script." ascii wide
+
 condition:
 	uint16(0) != 0x5A4D and any of them
 }
