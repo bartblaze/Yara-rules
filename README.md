@@ -8,18 +8,19 @@ To contribute to the community.
 ## Can I use these rules?
 Of course! That's why I created this repo. 
 
-You can use them in your detection systems. For example, [CAPE sandbox](https://github.com/kevoreilly/CAPEv2) and [VirusTotal](https://www.virustotal.com/) uses these rules.
+You can use them in your detection systems. For example, [CAPE sandbox](https://github.com/kevoreilly/CAPEv2) and [VirusTotal](https://www.virustotal.com/) use these rules.
 
 All rules are TLP:White, so you can use and distribute them freely. Please retain the meta.
 
 ## Minimum Yara version needed?
-v3.3.0 is minimally needed, as some rules may require a specific module. Note that it's recommended to always use the latest Yara version as found [here](https://github.com/VirusTotal/yara/releases)
+v3.3.0 is minimally needed, as some rules may require a specific module. Note that it's recommended to always use the latest Yara version as found [here](https://github.com/VirusTotal/yara/releases).
 
 ## Feedback?
 If you spot an issue or improvement with one of the rules, feel free to submit a PR!
 
 ## Help! A generic rule is hitting my software!
 If one of the rules in the [generic](https://github.com/bartblaze/Yara-rules/tree/master/rules/generic) rules section hits on your software: this is not a false positive. It is simply an objective fact that, for example, your software has been compiled or wrapped using AutoIT. It equally does **not** mean your software is malicious.
+
 
 
 # Extra
