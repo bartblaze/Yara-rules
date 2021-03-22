@@ -12,8 +12,7 @@ strings:
 	$ = "Black KingDom" ascii wide
 	$ = "FUCKING_WINDOW" ascii wide
 	$ = "PleasStopMe" ascii wide
-	$ = "Time Out: 		{:02d}:{:02d}.{:02d}" ascii wide
-	$ = "Time expired: 	THE AMOUNT DOUBLED" ascii wide
+	$ = "THE AMOUNT DOUBLED" ascii wide
 	$ = "WOWBICH" ascii wide
 	$ = "clear_logs_plz" ascii wide
 	$ = "decrypt_file.TxT" ascii wide
