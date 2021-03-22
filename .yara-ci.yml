@@ -1,0 +1,7 @@
+files:
+  accept:
+  - "**.yar"
+  - "**.yara"
+false_positives:
+  ignore:
+   - rule: "LNK_Ruleset.yar"
