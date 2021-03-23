@@ -4,22 +4,5 @@ files:
   - "**.yara"
 false_positives:
   ignore:
-   - rule: "PS_in_LNK"
-   - rule: "Script_in_LNK"
-   - rule: "EXE_in_LNK"
-   - rule: "Archive_in_LNK"
-   - rule: "Execution_in_LNK"
-   - rule: "Compilation_in_LNK"
-   - rule: "Download_in_LNK"
-   - rule: "MSOffice_in_LNK"
-   - rule: "PDF_in_LNK"
-   - rule: "Flash_in_LNK"
-   - rule: "SMB_in_LNK"
-   - rule: "Long_RelativePath_LNK"
-   - rule: "Large_filesize_LNK"
-   - rule: "High_Entropy_LNK"
-   - rule: "CDN_in_LNK"
-   - rule: "AutoIT_Script"
-false_negatives:
-  ignore:
-   - rule: "BlackKingDom"
+   - file: "generic/LNK_Ruleset.yar"
+   - file: "generic/AutoIT.yar"
