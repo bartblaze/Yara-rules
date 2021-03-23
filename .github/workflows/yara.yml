@@ -1,0 +1,23 @@
+name: Package Yara Rules
+
+on: [push]
+# Credit @ 0xThiebaut
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out the repository under $GITHUB_WORKSPACE
+      - name: Check-out the repository
+        uses: actions/checkout@v2
+
+      # Assemble all *.yar files
+      - name: Assemble all Yara files
+        run: "for f in $GITHUB_WORKSPACE/**/*.yar; do cat $f >> rules.yar; done"
+
+      # Upload the assembled Yara artifact
+      - name: Upload the resulting Yara artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: rules.yar
+          path: rules.yar
