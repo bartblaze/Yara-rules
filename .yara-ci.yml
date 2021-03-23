@@ -4,5 +4,5 @@ files:
   - "**.yara"
 false_positives:
   ignore:
-   - file: "generic/LNK_Ruleset.yar"
-   - file: "generic/AutoIT.yar"
+   - file: "rules/generic/LNK_Ruleset.yar"
+   - file: "rules/generic/AutoIT.yar"
