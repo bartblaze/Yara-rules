@@ -13,7 +13,7 @@ jobs:
 
       # Assemble all *.yar files
       - name: Assemble all Yara files
-        run: "for f in $GITHUB_WORKSPACE/**/*.yar; do cat $f >> rules.yar; done"
+        run: "for f in $GITHUB_WORKSPACE/rules/**/*.yar; do cat $f >> rules.yar; done"
 
       # Upload the assembled Yara artifact
       - name: Upload the resulting Yara artifact
