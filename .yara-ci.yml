@@ -20,3 +20,6 @@ false_positives:
    - rule: "High_Entropy_LNK"
    - rule: "CDN_in_LNK"
    - rule: "AutoIT_Script"
+false_negatives:
+  ignore:
+   - rule: "BlackKingDom"
