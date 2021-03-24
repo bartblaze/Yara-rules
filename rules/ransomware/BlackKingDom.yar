@@ -4,7 +4,6 @@ meta:
 	description = "Identifies (decompiled) Black KingDom ransomware."
 	author = "@bartblaze"
 	date = "2021-03"
-	hash = "866b1f5c5edd9f01c5ba84d02e94ae7c1f9b2196af380eed1917e8fc21acbbdc"
 	tlp = "White"
 
 strings:
