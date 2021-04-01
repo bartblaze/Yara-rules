@@ -15,8 +15,8 @@ All rules are TLP:White, so you can use and distribute them freely. Please retai
 ## Actions
 There's two workflows running on this Github repository:
 
-* YARA-CI: runs automatically to detect signature errors, as well as false positives and negatives.
-* Package Yara rules: You can download a complete rules file (all Yara rules in one file) for convenience from the Actions tab > Artifacts (see image below).
+* [YARA-CI](https://yara-ci.cloud.virustotal.com/): runs automatically to detect signature errors, as well as false positives and negatives.
+* [Package Yara rules](https://github.com/bartblaze/Yara-rules/blob/master/.github/workflows/yara.yml): allows download of a complete rules file (all Yara rules from this repo in one file) for convenience from the Actions tab > Artifacts (see image below).
 
 ![image](https://user-images.githubusercontent.com/3075118/113322817-731feb00-9315-11eb-86ab-94f133f07038.png)
 
