@@ -7,7 +7,6 @@ meta:
 	tlp = "White"
 
 strings:
-	$ = "#NoTrayIcon" ascii wide
 	$ = "#OnAutoItStartRegister" ascii wide
 	$ = "#pragma compile" ascii wide
 	$ = "/AutoIt3ExecuteLine" ascii wide
@@ -30,7 +29,6 @@ meta:
 	tlp = "White"
 
 strings:
-	$ = "#NoTrayIcon" ascii wide
 	$ = "#OnAutoItStartRegister" ascii wide
 	$ = "#pragma compile" ascii wide
 	$ = "/AutoIt3ExecuteLine" ascii wide
