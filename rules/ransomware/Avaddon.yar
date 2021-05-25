@@ -22,5 +22,5 @@ strings:
         f6 74 ?? 83 7f 14 10 72 ?? 8b 3f }
 
 condition:
-	3 of ($s*) or $code
+	4 of ($s*) or $code
 }
