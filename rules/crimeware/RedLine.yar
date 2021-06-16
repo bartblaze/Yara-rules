@@ -73,5 +73,5 @@ strings:
 	$ = "XMRRule" ascii wide
 
 condition:
-	50 of them
+	45 of them
 }
