@@ -41,7 +41,7 @@ strings:
 	$ = "set config ok." ascii wide
 
 condition:
-	5 of them or (
+	15 of them or (
 	for any i in (0..pe.number_of_sections - 1): (
 	pe.sections[i].name == ".cotx") )
 }
