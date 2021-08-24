@@ -8,7 +8,7 @@ To contribute to the community.
 ## Can I use these rules?
 Of course! That's why I created this repo. 
 
-You can use them in your detection systems. For example, [CAPE sandbox](https://github.com/kevoreilly/CAPEv2), [MalwareBazaar](https://bazaar.abuse.ch/) and [VirusTotal](https://www.virustotal.com/) use these rules.
+You can use them in your detection systems. For example, [CAPE sandbox](https://github.com/kevoreilly/CAPEv2), [MalwareBazaar](https://bazaar.abuse.ch/) and [VirusTotal](https://www.virustotal.com/) (must be logged in) are using these rules.
 
 All rules are TLP:White, so you can use and distribute them freely. Please retain the meta. 
 
