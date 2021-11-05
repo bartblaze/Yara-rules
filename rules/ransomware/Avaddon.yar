@@ -22,5 +22,5 @@ strings:
         f6 74 ?? 83 7f 14 10 72 ?? 8b 3f }
 
 condition:
-	uint16(0) == 0x5a4d and (4 of ($s*) or $code)
+	uint16(0) == 0x5a4d and (5 of ($s*) or $code)
 }
