@@ -3,7 +3,7 @@ rule Ekans
 meta:
 	description = "Identifies Ekans aka Snake ransomware unpacked or in memory."
 	author = "@bartblaze"
-	date = "2020-03"
+	date = "2020-03-01"
 	tlp = "White"
 
 strings:

@@ -3,7 +3,7 @@ rule KeyBase
 meta:
 	description = "Identifies KeyBase aka Kibex."
 	author = "@bartblaze"
-	date = "2019-02"
+	date = "2019-02-01"
 	hash = "cafe2d12fb9252925fbd1acb9b7648d6"
 	tlp = "White"
 

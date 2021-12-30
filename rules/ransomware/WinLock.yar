@@ -3,7 +3,7 @@ rule WinLock
 meta:
 	description = "Identifies WinLock (aka Blocker) ransomware variants generically."
 	author = "@bartblaze"
-	date = "2020-08"
+	date = "2020-08-01"
 	tlp = "White"
 
 strings:

@@ -3,7 +3,7 @@ rule AveMaria
 meta:
 	description = "Identifies AveMaria aka WarZone RAT."
 	author = "@bartblaze"
-	date = "2020-11"
+	date = "2020-11-01"
 	tlp = "White"
 
 strings:

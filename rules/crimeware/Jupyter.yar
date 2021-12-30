@@ -3,7 +3,7 @@ rule Jupyter
 meta:
 	description = "Identifies Jupyter aka SolarMarker, backdoor."
 	author = "@bartblaze"
-	date = "2021-06"
+	date = "2021-06-01"
 	tlp = "White"
 
 strings:

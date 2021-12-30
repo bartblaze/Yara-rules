@@ -3,7 +3,7 @@ rule Unk_DesktopLoader
 meta:
 	description = "Identifies implant that will decrypt and load shellcode from a blob file. Calling it DesktopLoader for now, based on the filename it seeks."
 	author = "@bartblaze"
-	date = "2021-08"
+	date = "2021-08-01"
 	reference = "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/lockfile-ransomware-new-petitpotam-windows"
 	tlp = "White"
 

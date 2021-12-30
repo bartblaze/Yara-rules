@@ -3,7 +3,7 @@ rule AutoIT_Compiled
 meta:
 	description = "Identifies compiled AutoIT script (as EXE)."
 	author = "@bartblaze"
-	date = "2020-09"
+	date = "2020-09-01"
 	tlp = "White"
 
 strings:
@@ -25,7 +25,7 @@ rule AutoIT_Script
 meta:
 	description = "Identifies AutoIT script."
 	author = "@bartblaze"
-	date = "2020-09"
+	date = "2020-09-01"
 	tlp = "White"
 
 strings:

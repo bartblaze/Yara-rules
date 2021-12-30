@@ -3,7 +3,7 @@ rule CreateMiniDump
 meta:
 	description = "Identifies CreateMiniDump, tool to dump LSASS."
 	author = "@bartblaze"
-	date = "2021-03"
+	date = "2021-03-01"
 	reference = "https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsass-passwords-without-mimikatz-minidumpwritedump-av-signature-bypass"
 	tlp = "White"
 

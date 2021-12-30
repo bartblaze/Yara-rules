@@ -3,7 +3,7 @@ private rule isLNK
 meta:
 	description = "Private rule identifying shortcut (LNK) files. To be used in conjunction with the other LNK rules below."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$lnk = { 4C 00 00 00 01 14 02 00 }
@@ -16,7 +16,7 @@ rule PS_in_LNK
 meta:
 	description = "Identifies PowerShell artefacts in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = ".ps1" ascii wide nocase
@@ -40,7 +40,7 @@ rule Script_in_LNK
 meta:
 	description = "Identifies scripting artefacts in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = "javascript" ascii wide nocase
@@ -68,7 +68,7 @@ rule EXE_in_LNK
 meta:
 	description = "Identifies executable artefacts in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = ".exe" ascii wide nocase
@@ -86,7 +86,7 @@ rule Archive_in_LNK
 meta:
 	description = "Identifies archive (compressed) files in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = ".7z" ascii wide nocase
@@ -112,7 +112,7 @@ rule Execution_in_LNK
 meta:
 	description = "Identifies execution artefacts in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = "cmd.exe" ascii wide nocase
@@ -134,7 +134,7 @@ rule Compilation_in_LNK
 meta:
 	description = "Identifies compilation artefacts in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = "vbc.exe" ascii wide nocase
@@ -148,7 +148,7 @@ rule Download_in_LNK
 meta:
 	description = "Identifies download artefacts in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = "bitsadmin" ascii wide nocase
@@ -166,7 +166,7 @@ rule MSOffice_in_LNK
 meta:
 	description = "Identifies Microsoft Office artefacts in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = "winword" ascii wide nocase
@@ -190,7 +190,7 @@ rule PDF_in_LNK
 meta:
 	description = "Identifies Adobe Acrobat artefacts in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = ".pdf" ascii wide nocase
@@ -204,7 +204,7 @@ rule Flash_in_LNK
 meta:
 	description = "Identifies Adobe Flash artefacts in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = ".swf" ascii wide nocase
@@ -218,7 +218,7 @@ rule SMB_in_LNK
 meta:
 	description = "Identifies SMB (share) artefacts in shortcut (LNK) files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = "\\c$\\" ascii wide nocase
@@ -232,7 +232,7 @@ rule Long_RelativePath_LNK
 meta:
 	description = "Identifies shortcut (LNK) file with a long relative path. Might be used in an attempt to hide the path."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 strings:
 	$ = "..\\..\\..\\..\\" ascii wide nocase
@@ -245,7 +245,7 @@ rule Large_filesize_LNK
 meta:
 	description = "Identifies shortcut (LNK) file larger than 100KB. Most goodware LNK files are smaller than 100KB."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 condition:
 	isLNK and filesize > 100KB
@@ -257,7 +257,7 @@ rule High_Entropy_LNK
 meta:
 	description = "Identifies shortcut (LNK) file with equal or higher entropy than 6.5. Most goodware LNK files have a low entropy, lower than 6."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 condition:
 	isLNK and math.entropy(0, filesize) >= 6.5
@@ -268,7 +268,7 @@ rule CDN_in_LNK
 meta:
 	description = "Identifies CDN (Content Delivery Network) domain in shortcut (LNK) file."
 	author = "@bartblaze"
-	date = "2020-03"
+	date = "2020-03-01"
 	tlp = "White"
 strings:
 	$ = "cdn." ascii wide nocase //May FP

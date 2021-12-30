@@ -3,7 +3,7 @@ rule RagnarLocker
 meta:
 	description = "Identifies RagnarLocker ransomware unpacked or in memory."
 	author = "@bartblaze"
-	date = "2020-07"
+	date = "2020-07-01"
 	tlp = "White"
 	
 strings:

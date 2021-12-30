@@ -3,7 +3,7 @@ rule Adfind
 meta:
 	description = "Identifies Adfind, a Command line Active Directory query tool."
 	author = "@bartblaze"
-	date = "2020-08"
+	date = "2020-08-01"
 	reference = "http://www.joeware.net/freetools/tools/adfind/"
 	tlp = "White"
 

@@ -4,7 +4,7 @@ rule ArechClient_Campaign_July2021
 meta:
 	description = "Identifies ArechClient stealer's July 2021 campaign."
 	author = "@bartblaze"
-	date = "2021-07"
+	date = "2021-07-01"
 	reference = "https://twitter.com/bcrypt/status/1420471176137113601"
 	tlp = "White"
 

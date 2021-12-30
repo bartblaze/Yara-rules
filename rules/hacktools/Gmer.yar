@@ -4,7 +4,7 @@ rule Gmer
 meta:
 	description = "Identifies Gmer, sometimes used by attackers to disable security software."
 	author = "@bartblaze"
-	date = "2021-07"
+	date = "2021-07-01"
 	reference = "http://www.gmer.net/"
 	tlp = "White"
 	

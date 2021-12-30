@@ -3,7 +3,7 @@ rule DearCry
 meta:
 	description = "Identifies DearCry ransomware."
 	author = "@bartblaze"
-	date = "2021-03"
+	date = "2021-03-01"
 	reference = "https://twitter.com/MsftSecIntel/status/1370236539427459076"
 	tlp = "White"
 

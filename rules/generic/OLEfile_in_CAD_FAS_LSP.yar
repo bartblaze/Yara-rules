@@ -3,7 +3,7 @@ rule OLEfile_in_CAD_FAS_LSP
 meta:
 	description = "Identifies OLE files embedded in AutoCAD and related Autodesk files, quite uncommon and potentially malicious."
 	author = "@bartblaze"
-	date = "2019-12"
+	date = "2019-12-01"
 	reference = "https://blog.didierstevens.com/2019/12/16/analyzing-dwg-files-with-vba-macros/"
 	tlp = "White"
 

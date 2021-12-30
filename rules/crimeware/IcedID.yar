@@ -3,7 +3,7 @@ rule IcedID_init_loader
 meta:
 	description = "Identifies IcedID (stage 1 and 2, initial loaders)."
 	author = "@bartblaze"
-	date = "2021-01"
+	date = "2021-01-01"
 	tlp = "White"
 	
 strings:
@@ -27,7 +27,7 @@ rule IcedID_core_loader
 meta:
 	description = "Identifies IcedID core loader."
 	author = "@bartblaze"
-	date = "2021-07"
+	date = "2021-07-01"
 	tlp = "White"
 	
 strings:

@@ -3,7 +3,7 @@ rule ArechClient
 meta:
 	description = "Identifies ArechClient, infostealer."
 	author = "@bartblaze"
-	date = "2021-07"
+	date = "2021-07-01"
 	tlp = "White"
 	
 strings:

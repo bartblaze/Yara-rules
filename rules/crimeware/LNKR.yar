@@ -3,7 +3,7 @@ rule LNKR_JS_a
 meta:
 	description = "Identifies LNKR, an aggressive adware that also performs clickjacking."
 	author = "@bartblaze"
-	date = "2021-04"
+	date = "2021-04-01"
 	tlp = "White"
 	
 strings:
@@ -45,7 +45,7 @@ rule LNKR_JS_b
 meta:
 	description = "Identifies LNKR, an aggressive adware that also performs clickjacking."
 	author = "@bartblaze"
-	date = "2021-04"
+	date = "2021-04-01"
 	tlp = "White"
 	
 strings:
@@ -62,7 +62,7 @@ rule LNKR_JS_c
 meta:
 	description = "Identifies LNKR, an aggressive adware that also performs clickjacking."
 	author = "@bartblaze"
-	date = "2021-04"
+	date = "2021-04-01"
 	tlp = "White"
 	
 strings:
@@ -88,7 +88,7 @@ rule LNKR_JS_d
 meta:
 	description = "Identifies LNKR, an aggressive adware that also performs clickjacking."
 	author = "@bartblaze"
-	date = "2021-04"
+	date = "2021-04-01"
 	tlp = "White"
 	
 strings:

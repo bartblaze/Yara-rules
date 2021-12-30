@@ -3,7 +3,7 @@ rule Hidden
 meta:
 	description = "Identifies Hidden Windows driver, used by malware such as PurpleFox."
 	author = "@bartblaze"
-	date = "2021-11"
+	date = "2021-11-01"
 	reference = "https://github.com/JKornev/hidden"
 	tlp = "White"
 

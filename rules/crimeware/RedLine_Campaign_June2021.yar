@@ -4,7 +4,7 @@ rule RedLine_Campaign_June2021
 meta:
 	description = "Identifies RedLine stealer's June 2021 campaign."
 	author = "@bartblaze"
-	date = "2021-06"
+	date = "2021-06-01"
 	reference = "https://bartblaze.blogspot.com/2021/06/digital-artists-targeted-in-redline.html"
 	tlp = "White"
 

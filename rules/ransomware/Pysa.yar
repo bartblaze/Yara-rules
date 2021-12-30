@@ -3,7 +3,7 @@ rule Pysa
 meta:
 	description = "Identifies Pysa aka Mespinoza ransomware."
 	author = "@bartblaze"
-	date = "2021-03"
+	date = "2021-03-01"
 	tlp = "White"
 
 strings: 

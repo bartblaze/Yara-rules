@@ -3,7 +3,7 @@ rule RDPWrap
 meta:
 	description = "Identifies RDP Wrapper, sometimes used by attackers to maintain persistence."
 	author = "@bartblaze"
-	date = "2020-05"
+	date = "2020-05-01"
 	reference = "https://github.com/stascorp/rdpwrap"
 	tlp = "White"
 

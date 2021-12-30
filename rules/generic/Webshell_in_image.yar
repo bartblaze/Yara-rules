@@ -3,7 +3,7 @@ rule Webshell_in_image
 meta:
 	description = "Identifies a webshell or backdoor in image files."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 	
 strings:

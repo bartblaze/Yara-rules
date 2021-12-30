@@ -4,7 +4,7 @@ rule Unk_Crime_Downloader_1
 meta:
 	description = "Unknown downloader DLL, likely used by Emotet and/or TrickBot."
 	author = "@bartblaze"
-	date = "2020-10"
+	date = "2020-10-01"
 	hash = "3d2ca7dc3d7c0aa120ed70632f9f0a15"
 	tlp = "White"
 	

@@ -3,7 +3,7 @@ rule SystemBC_Socks
 meta:
 	description = "Identifies SystemBC RAT, Socks proxy version."
 	author = "@bartblaze"
-	date = "2021-07"
+	date = "2021-07-01"
 	tlp = "White"
 
 strings:
@@ -28,7 +28,7 @@ rule SystemBC_Config
 meta:
 	description = "Identifies SystemBC RAT, decrypted config."
 	author = "@bartblaze"
-	date = "2021-07"
+	date = "2021-07-01"
 	tlp = "White"
 
 strings:

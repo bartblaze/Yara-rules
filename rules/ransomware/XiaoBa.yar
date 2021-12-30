@@ -3,7 +3,7 @@ rule XiaoBa
 meta:
 	description = "Identifies XiaoBa ransomware unpacked or in memory."
 	author = "@bartblaze"
-	date = "2019-09"
+	date = "2019-09-01"
 	tlp = "White"
 
 strings:

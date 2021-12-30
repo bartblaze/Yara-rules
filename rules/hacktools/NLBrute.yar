@@ -3,7 +3,7 @@ rule NLBrute
 meta:
 	description = "Identifies NLBrute, an RDP brute-forcing tool."
 	author = "@bartblaze"
-	date = "2020-08"
+	date = "2020-08-01"
 	tlp = "White"
 
 strings:

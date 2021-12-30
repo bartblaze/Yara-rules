@@ -3,7 +3,7 @@ rule BlackKingDom
 meta:
 	description = "Identifies (decompiled) Black KingDom ransomware."
 	author = "@bartblaze"
-	date = "2021-03"
+	date = "2021-03-01"
 	tlp = "White"
 
 strings:

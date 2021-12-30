@@ -3,7 +3,7 @@ rule Windows_Credentials_Editor
 meta:
 	description = "Identifies Windows Credentials Editor (WCE), post-exploitation tool."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	reference = "https://www.ampliasecurity.com/research/windows-credentials-editor/"
 	tlp = "White"
 
