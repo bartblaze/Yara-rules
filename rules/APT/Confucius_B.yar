@@ -3,7 +3,7 @@ rule Confucius_B
 meta:
 	description = "Identifies Confucius malware."
 	author = "@bartblaze"
-	date = "2020-04"
+	date = "2020-04-01"
 	reference = "https://unit42.paloaltonetworks.com/unit42-confucius-says-malware-families-get-further-by-abusing-legitimate-websites/"
 	tlp = "White"
 	

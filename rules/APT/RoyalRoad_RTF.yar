@@ -3,7 +3,7 @@ rule RoyalRoad_RTF
 meta:
 	description = "Identifies RoyalRoad RTF, used by multiple Chinese APT groups."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	reference = "https://nao-sec.org/2020/01/an-overhead-view-of-the-royal-road.html"
 	tlp = "White"
 
