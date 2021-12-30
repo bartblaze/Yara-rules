@@ -3,7 +3,7 @@ rule Andromeda
 meta:
 	description = "Identifies Andromeda aka Gamarue botnet."
 	author = "@bartblaze"
-	date = "2021-03"
+	date = "2021-03-01"
 	tlp = "White"
 
 strings:

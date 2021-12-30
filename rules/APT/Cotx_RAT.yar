@@ -4,7 +4,7 @@ rule Cotx_RAT
 meta:
 	description = "Identifies Cotx RAT."
 	author = "@bartblaze"
-	date = "2019-07"
+	date = "2019-07-01"
 	reference = "https://www.proofpoint.com/us/threat-insight/post/chinese-apt-operation-lagtime-it-targets-government-information-technology"
 	tlp = "White"
 	
