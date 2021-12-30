@@ -3,7 +3,7 @@ rule WickrMe
 meta:
 	description = "Identifies WickrMe (aka Hello) ransomware."
 	author = "@bartblaze"
-	date = "2021-04"
+	date = "2021-04-01"
 	reference = "https://www.trendmicro.com/en_ca/research/21/d/hello-ransomware-uses-updated-china-chopper-web-shell-sharepoint-vulnerability.html"
 	tlp = "White"
 

@@ -3,7 +3,7 @@ rule REvil_Dropper
 meta:
 	description = "Identifies the dropper used by REvil in the Kaseya supply chain attack."
 	author = "@bartblaze"
-	date = "2021-07"
+	date = "2021-07-01"
 	hash = "d55f983c994caa160ec63a59f6b4250fe67fb3e8c43a388aec60a4a6978e9f1e"
   	reference = "https://community.sophos.com/b/security-blog/posts/active-ransomware-attack-on-kaseya-customers"
 	tlp = "White"

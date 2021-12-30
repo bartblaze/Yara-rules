@@ -3,7 +3,7 @@ rule IISRaid
 meta:
 	description = "Identifies IISRaid."
 	author = "@bartblaze"
-	date = "2021-08"
+	date = "2021-08-01"
 	reference = "https://github.com/0x09AL/IIS-Raid"
 	tlp = "White"
 

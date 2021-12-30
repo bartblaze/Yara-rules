@@ -4,7 +4,7 @@ rule HiddenVNC
 meta:
 	description = "Identifies HiddenVNC, which can start remote sessions."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	tlp = "White"
 	
 strings:

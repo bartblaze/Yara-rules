@@ -5,7 +5,7 @@ rule DefenderControl
 meta:
 	description = "Identifies Defender Control, used by attackers to disable Windows Defender."
 	author = "@bartblaze"
-	date = "2021-04"
+	date = "2021-04-01"
 	reference = "https://www.sordum.org/9480/defender-control-v1-8/"
 	tlp = "White"
 

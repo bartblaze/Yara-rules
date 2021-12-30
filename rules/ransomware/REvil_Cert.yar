@@ -4,7 +4,7 @@ rule REvil_Cert
 meta:
 	description = "Identifies the digital certificate PB03 TRANSPORT LTD, used by REvil in the Kaseya supply chain attack."
 	author = "@bartblaze"
-	date = "2021-07"
+	date = "2021-07-01"
 	reference = "https://community.sophos.com/b/security-blog/posts/active-ransomware-attack-on-kaseya-customers"
 	tlp = "White"
 	

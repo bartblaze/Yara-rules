@@ -3,7 +3,7 @@ rule Darkside
 meta:
 	description = "Identifies Darkside ransomware."
 	author = "@bartblaze"
-	date = "2021-05"
+	date = "2021-05-01"
 	tlp = "White"
 
 strings:

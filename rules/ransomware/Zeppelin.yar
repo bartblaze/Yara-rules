@@ -3,7 +3,7 @@ rule Zeppelin
 meta:
 	description = "Identifies Zeppelin ransomware and variants (Buran, Vega etc.)"
 	author = "@bartblaze"
-	date = "2019-11"
+	date = "2019-11-01"
 	tlp = "White"
 	
 strings:

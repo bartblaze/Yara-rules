@@ -3,7 +3,7 @@ rule MalScript_Tricks
 meta:
 	description = "Identifies tricks often seen in malicious scripts such as moving the window off-screen or resizing it to zero."
 	author = "@bartblaze"
-	date = "2020-12"
+	date = "2020-12-01"
 	tlp = "White"
   
 strings:	

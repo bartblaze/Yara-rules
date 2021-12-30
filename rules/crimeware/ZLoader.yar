@@ -3,7 +3,7 @@ rule ZLoader
 meta:
     description = "Identifies ZLoader in memory or unpacked."
     author = "@bartblaze"
-    date = "2020-04"
+    date = "2020-04-01"
     tlp = "White"
 
 strings:

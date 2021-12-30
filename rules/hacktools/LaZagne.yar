@@ -3,7 +3,7 @@ rule LaZagne
 meta:
 	description = "Identifies LaZagne, credentials recovery project."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	reference = "https://github.com/AlessandroZ/LaZagne"
 	tlp = "White"
 

@@ -3,7 +3,7 @@ rule Responder
 meta:
 	description = "Identifies Responder, an LLMNR, NBT-NS and MDNS poisoner."
 	author = "@bartblaze"
-	date = "2020-08"
+	date = "2020-08-01"
 	reference = "https://github.com/lgandx/Responder"
 	tlp = "White"
 

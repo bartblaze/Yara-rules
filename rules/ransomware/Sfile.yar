@@ -3,7 +3,7 @@ rule Sfile
 meta:
 	description = "Identifies Sfile aka Escal ransomware."
 	author = "@bartblaze"
-	date = "2020-09"
+	date = "2020-09-01"
 	tlp = "White"
 
 strings:

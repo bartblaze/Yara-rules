@@ -3,7 +3,7 @@ rule Maze
 meta:
     description = "Identifies Maze ransomware in memory or unpacked."
     author = "@bartblaze"
-    date = "2019-11"
+    date = "2019-11-01"
     tlp = "White"
 
 strings:

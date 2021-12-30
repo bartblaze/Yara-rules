@@ -3,7 +3,7 @@ rule Impacket
 meta:
 	description = "Identifies Impacket, a collection of Python classes for working with network protocols."
 	author = "@bartblaze"
-	date = "2020-08"
+	date = "2020-08-01"
 	reference = "https://github.com/SecureAuthCorp/impacket"
 	tlp = "White"
 

@@ -3,7 +3,7 @@ rule Ganelp
 meta:
 	description = "Identifies Ganelp, a worm that also spreads via USB."
 	author = "@bartblaze"
-	date = "2021-06"
+	date = "2021-06-01"
 	tlp = "White"
 
 strings:

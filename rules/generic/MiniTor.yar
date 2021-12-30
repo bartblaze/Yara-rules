@@ -3,7 +3,7 @@ rule MiniTor
 meta:
 	description = "Identifies MiniTor implementation as seen in SystemBC and Parallax RAT."
 	author = "@bartblaze"
-	date = "2021-03"
+	date = "2021-03-01"
 	reference = "https://news.sophos.com/en-us/2020/12/16/systembc/"
 	tlp = "White"
 

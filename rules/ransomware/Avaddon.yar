@@ -3,7 +3,7 @@ rule Avaddon
 meta:
 	description = "Identifies Avaddon ransomware."
 	author = "@bartblaze"
-	date = "2021-05"
+	date = "2021-05-01"
 	tlp = "White"
 
 strings:

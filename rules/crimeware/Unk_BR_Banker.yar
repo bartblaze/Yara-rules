@@ -3,7 +3,7 @@ rule Unk_BR_Banker
 meta:
 	description = "Identifies an unknown Brazilian banking trojan."
 	author = "@bartblaze"
-	date = "2021-06"
+	date = "2021-06-01"
 	tlp = "White"
 
 strings:

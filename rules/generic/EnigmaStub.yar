@@ -3,7 +3,7 @@ rule EnigmaStub
 meta:
 	description = "Identifies Enigma packer stub."
 	author = "@bartblaze"
-	date = "2020-03"
+	date = "2020-03-01"
 	tlp = "White"
 
 strings:	

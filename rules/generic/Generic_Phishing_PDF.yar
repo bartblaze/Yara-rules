@@ -3,7 +3,7 @@ rule Generic_Phishing_PDF
 meta:
 	description = "Identifies generic phishing PDFs."
 	author = "@bartblaze"
-	date = "2019-03"
+	date = "2019-03-01"
 	reference = "https://bartblaze.blogspot.com/2019/03/analysing-massive-office-365-phishing.html"
 	tlp = "White"
 

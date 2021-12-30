@@ -3,7 +3,7 @@ rule BazarBackdoor
 meta:
 	description = "Identifies Bazar backdoor."
 	author = "@bartblaze"
-	date = "2020-04"
+	date = "2020-04-01"
 	reference = "https://www.bleepingcomputer.com/news/security/bazarbackdoor-trickbot-gang-s-new-stealthy-network-hacking-malware/"
 	tlp = "White"
 	

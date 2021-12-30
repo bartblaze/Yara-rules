@@ -3,7 +3,7 @@ rule Satan_Mutexes
 meta:
 	description = "Identifies Satan ransomware (and its variants) by mutex."
 	author = "@bartblaze"
-	date = "2020-01"
+	date = "2020-01-01"
 	reference = "https://bartblaze.blogspot.com/2020/01/satan-ransomware-rebrands-as-5ss5c.html"
 	tlp = "White"
 strings:

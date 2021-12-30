@@ -3,7 +3,7 @@ rule CrunchyRoll
 meta:
 	description = "Identifies malware used in CrunchyRoll website hack."
 	author = "@bartblaze"
-	date = "2019-11"
+	date = "2019-11-01"
 	reference = "https://bartblaze.blogspot.com/2017/11/crunchyroll-hack-delivers-malware.html"
 	tlp = "White"
 	

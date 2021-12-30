@@ -3,7 +3,7 @@ rule VMProtectStub
 meta:
 	description = "Identifies VMProtect packer stub."
 	author = "@bartblaze"
-	date = "2020-05"
+	date = "2020-05-01"
 	tlp = "White"
 
 strings:	

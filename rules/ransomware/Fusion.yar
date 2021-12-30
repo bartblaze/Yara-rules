@@ -3,7 +3,7 @@ rule Fusion
 meta:
 	description = "Identifies Fusion ransomware, Go variant of Nemty/Nefilim."
 	author = "@bartblaze"
-	date = "2021-06"
+	date = "2021-06-01"
 	tlp = "White"
 
 strings:

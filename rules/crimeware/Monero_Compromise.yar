@@ -3,7 +3,7 @@ rule Monero_Compromise
 meta:
 	description = "Identifies compromised Monero binaries."
 	author = "@bartblaze"
-	date = "2019-11"
+	date = "2019-11-01"
 	reference = "https://bartblaze.blogspot.com/2019/11/monero-project-compromised.html"
 	tlp = "White"
 

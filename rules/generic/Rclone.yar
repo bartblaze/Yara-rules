@@ -5,7 +5,7 @@ rule Rclone
 meta:
 	description = "Identifies Rclone, sometimes used by attackers to exfiltrate data."
 	author = "@bartblaze"
-	date = "2021-07"
+	date = "2021-07-01"
 	reference = "https://rclone.org/"
 	tlp = "White"
 	

@@ -3,7 +3,7 @@ rule PurpleFox_a
 meta:
 	description = "Identifies PurpleFox aka DirtyMoe botnet."
 	author = "@bartblaze"
-	date = "2021-11"
+	date = "2021-11-01"
 	tlp = "White"
 
 strings:
@@ -21,7 +21,7 @@ rule PurpleFox_b
 meta:
 	description = "Identifies PurpleFox aka DirtyMoe botnet."
 	author = "@bartblaze"
-	date = "2021-11"
+	date = "2021-11-01"
 	tlp = "White"
 
 strings:
@@ -40,7 +40,7 @@ rule PurpleFox_c
 meta:
 	description = "Identifies PurpleFox aka DirtyMoe botnet."
 	author = "@bartblaze"
-	date = "2021-11"
+	date = "2021-11-01"
 	tlp = "White"
 
 strings:
@@ -61,7 +61,7 @@ rule PurpleFox_Dropper
 meta:
 	description = "Identifies PurpleFox aka DirtyMoe botnet, dropper CAB or MSI package."
 	author = "@bartblaze"
-	date = "2021-11"
+	date = "2021-11-01"
 	tlp = "White"
 
 strings:

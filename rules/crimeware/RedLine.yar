@@ -3,7 +3,7 @@ rule RedLine_a
 meta:
 	description = "Identifies RedLine stealer."
 	author = "@bartblaze"
-	date = "2021-06"
+	date = "2021-06-01"
 	tlp = "White"
 
 strings:
@@ -81,7 +81,7 @@ rule RedLine_b
 meta:
 	description = "Identifies RedLine stealer."
 	author = "@bartblaze"
-	date = "2021-10"
+	date = "2021-10-01"
 	tlp = "White"
 
 strings:

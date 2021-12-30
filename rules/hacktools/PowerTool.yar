@@ -4,7 +4,7 @@ rule PowerTool
 meta:
 	description = "Identifies PowerTool, sometimes used by attackers to disable security software."
 	author = "@bartblaze"
-	date = "2021-07"
+	date = "2021-07-01"
 	reference = "https://www.softpedia.com/get/Antivirus/Removal-Tools/ithurricane-PowerTool.shtml"
 	tlp = "White"
 	

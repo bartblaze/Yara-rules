@@ -3,7 +3,7 @@ rule Parallax
 meta:
 	description = "Identifies Parallax RAT."
 	author = "@bartblaze"
-	date = "2020-09"
+	date = "2020-09-01"
 	tlp = "White"
 
 strings:
