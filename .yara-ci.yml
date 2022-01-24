@@ -6,4 +6,4 @@ false_positives:
   ignore:
    - file: "rules/generic/LNK_Ruleset.yar"
    - file: "rules/generic/AutoIT.yar"
-   = file: "rules/generic/Specialist_Repack_Doc.yar"
+   - file: "rules/generic/Specialist_Repack_Doc.yar"
