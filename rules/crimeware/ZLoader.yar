@@ -33,5 +33,5 @@ strings:
 	$s6 = "rhnbeqcuwzbsjwfsynex" ascii wide fullword
 
 condition:
-	$code or $dll or (2 of ($s*))
+	$code or $dll or (4 of ($s*))
 }
