@@ -21,7 +21,7 @@ strings:
 	MOV        byte ptr SS :[EAX  + EBP *0x1  + 0xffffff00 ],DH
 	MOV        byte ptr SS :[EBX  + EBP *0x1  + 0xffffff00 ],DL
 	*/
-	$=  { 36 8a 94 28 00 ff ff ff 02 da 36 8a b4 2b 00 ff ff ff 36 88 b4 28 00 ff ff ff 36 88 94 2b 00 ff ff ff }
+	$ =  { 36 8a 94 28 00 ff ff ff 02 da 36 8a b4 2b 00 ff ff ff 36 88 b4 28 00 ff ff ff 36 88 94 2b 00 ff ff ff }
 	
 condition:
 	any of them
