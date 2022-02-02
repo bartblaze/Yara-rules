@@ -13,6 +13,9 @@ rule ZLoader
         author = "@bartblaze"
         description = "Identifies ZLoader in memory or unpacked."
         category = "MALWARE"
+        malware = "ZLOADER"
+        malware_type = "LOADER"
+        
 
     strings:
         /*

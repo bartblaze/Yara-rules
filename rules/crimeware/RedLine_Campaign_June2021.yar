@@ -15,6 +15,8 @@ rule RedLine_Campaign_June2021
         author = "@bartblaze"
         description = "Identifies RedLine stealer's June 2021 campaign."
         category = "MALWARE"
+        malware = "REDLINE"
+        malware_type = "INFOSTEALER"
         reference = "https://bartblaze.blogspot.com/2021/06/digital-artists-targeted-in-redline.html"
 
 

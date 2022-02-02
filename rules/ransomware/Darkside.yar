@@ -13,6 +13,7 @@ rule Darkside
         author = "@bartblaze"
         description = "Identifies Darkside ransomware."
         category = "MALWARE"
+        malware = "DARKSIDE"
         malware_type = "RANSOMWARE"
 
     strings:

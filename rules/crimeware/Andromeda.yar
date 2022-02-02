@@ -13,7 +13,9 @@ rule Andromeda
         author = "@bartblaze"
         description = "Identifies Andromeda aka Gamarue botnet, USB worm module."
         category = "MALWARE"
+        malware = "ANDROMEDA"
         malware_type = "WORM"
+
 
     strings:
         $code = { 8d ?? dc fd ff ff 50 8d ?? d8 fd ff ff 50 e8 ?? ?? ?? ?? 8a 00 53 68 ?? ?? ?? ?? 56 

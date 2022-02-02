@@ -13,6 +13,7 @@ rule WickrMe
         author = "@bartblaze"
         description = "Identifies WickrMe (aka Hello) ransomware."
         category = "MALWARE"
+        malware = "WICKRME"
         malware_type = "RANSOMWARE"
         reference = "https://www.trendmicro.com/en_ca/research/21/d/hello-ransomware-uses-updated-china-chopper-web-shell-sharepoint-vulnerability.html"
 

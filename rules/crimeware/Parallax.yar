@@ -13,6 +13,7 @@ rule Parallax
         author = "@bartblaze"
         description = "Identifies Parallax RAT."
         category = "MALWARE"
+        malware = "PARALLAX"
         malware_type = "RAT"
 
     strings:

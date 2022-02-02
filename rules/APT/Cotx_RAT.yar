@@ -15,6 +15,7 @@ rule Cotx_RAT
         author = "@bartblaze"
         description = "Identifies Cotx RAT."
         category = "MALWARE"
+        malware = "COTX"
         malware_type = "RAT"
         reference = "https://www.proofpoint.com/us/threat-insight/post/chinese-apt-operation-lagtime-it-targets-government-information-technology"
 

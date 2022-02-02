@@ -13,6 +13,7 @@ rule KeyBase
         author = "@bartblaze"
         description = "Identifies KeyBase aka Kibex."
         category = "MALWARE"
+        malware = "KEYBASE"
         hash = "cafe2d12fb9252925fbd1acb9b7648d6"
 
     strings:

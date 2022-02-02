@@ -16,6 +16,7 @@ rule DefenderControl
         author = "@bartblaze"
         description = "Identifies Defender Control, used by attackers to disable Windows Defender."
         category = "MALWARE"
+        malware = "DEFENDERCONTROL"
         reference = "https://www.sordum.org/9480/defender-control-v1-8/"
 
 

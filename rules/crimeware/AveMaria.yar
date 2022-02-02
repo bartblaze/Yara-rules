@@ -13,7 +13,10 @@ rule AveMaria
         author = "@bartblaze"
         description = "Identifies AveMaria aka WarZone RAT."
         category = "MALWARE"
+        malware = "WARZONERAT"
         malware_type = "RAT"
+        mitre_att = "S0534"
+
 
     strings:
         $ = "AVE_MARIA" ascii wide

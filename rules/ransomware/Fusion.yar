@@ -13,6 +13,7 @@ rule Fusion
         author = "@bartblaze"
         description = "Identifies Fusion ransomware, Go variant of Nemty/Nefilim."
         category = "MALWARE"
+        malware = "FUSION"
         malware_type = "RANSOMWARE"
 
     strings:

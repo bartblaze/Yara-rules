@@ -13,7 +13,9 @@ rule Ganelp
         author = "@bartblaze"
         description = "Identifies Ganelp, a worm that also spreads via USB."
         category = "MALWARE"
+        malware = "GANELP"
         malware_type = "WORM"
+        
 
     strings:
         $ = "regardez cette photo :D %s" ascii wide

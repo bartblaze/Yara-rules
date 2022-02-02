@@ -15,6 +15,7 @@ rule HiddenVNC
         author = "@bartblaze"
         description = "Identifies HiddenVNC, which can start remote sessions."
         category = "MALWARE"
+        mitre_att = "T1021.005"
 
     strings:
         $ = "#hvnc" ascii wide

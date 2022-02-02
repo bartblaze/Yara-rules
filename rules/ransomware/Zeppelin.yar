@@ -13,6 +13,7 @@ rule Zeppelin
         author = "@bartblaze"
         description = "Identifies Zeppelin ransomware and variants (Buran, Vega etc.)"
         category = "MALWARE"
+        malware = "ZEPPELIN"
         malware_type = "RANSOMWARE"
 
     strings:

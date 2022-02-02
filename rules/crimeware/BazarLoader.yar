@@ -13,6 +13,8 @@ rule BazarLoader
         author = "@bartblaze"
         description = "Identifies BazarLoader."
         category = "MALWARE"
+        malware_type = "LOADER"
+        malware = "BAZARLOADER"
         reference = "https://www.bleepingcomputer.com/news/security/bazarbackdoor-trickbot-gang-s-new-stealthy-network-hacking-malware/"
 
 

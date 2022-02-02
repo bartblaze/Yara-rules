@@ -13,6 +13,7 @@ rule WinLock
         author = "@bartblaze"
         description = "Identifies WinLock (aka Blocker) ransomware variants generically."
         category = "MALWARE"
+        malware = "WINLOCK"
         malware_type = "RANSOMWARE"
 
     strings:

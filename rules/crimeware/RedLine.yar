@@ -13,6 +13,8 @@ rule RedLine_a
         author = "@bartblaze"
         description = "Identifies RedLine stealer."
         category = "MALWARE"
+        malware = "REDLINE"
+        malware = "INFOSTEALER"
 
     strings:
         $ = "Account" ascii wide

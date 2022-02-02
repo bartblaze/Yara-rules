@@ -13,6 +13,7 @@ rule XiaoBa
         author = "@bartblaze"
         description = "Identifies XiaoBa ransomware unpacked or in memory."
         category = "MALWARE"
+        malware = "XIAOBA"
         malware_type = "RANSOMWARE"
 
     strings:

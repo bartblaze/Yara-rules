@@ -13,6 +13,7 @@ rule SystemBC_Socks
         author = "@bartblaze"
         description = "Identifies SystemBC RAT, Socks proxy version."
         category = "MALWARE"
+        malware = "SYSTEMBC"
         malware_type = "RAT"
 
     strings:

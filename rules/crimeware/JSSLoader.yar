@@ -13,6 +13,9 @@ rule JSSLoader
         author = "@bartblaze"
         description = "Identifies FIN7's JSSLoader."
         category = "MALWARE"
+        malware = "JSSLOADER"
+        malware_type = "LOADER"
+        mitre_att = "S0648"
 
     strings:
         $s1 = "host" ascii wide fullword

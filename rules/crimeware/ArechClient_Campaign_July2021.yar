@@ -15,6 +15,8 @@ rule ArechClient_Campaign_July2021
         author = "@bartblaze"
         description = "Identifies ArechClient stealer's July 2021 campaign."
         category = "MALWARE"
+        malware = "ARECHCLIENT"
+        malware_type = "INFOSTEALER"
         reference = "https://twitter.com/bcrypt/status/1420471176137113601"
 
 
