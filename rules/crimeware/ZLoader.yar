@@ -15,7 +15,7 @@ rule ZLoader
         category = "MALWARE"
         malware = "ZLOADER"
         malware_type = "LOADER"
-        
+
 
     strings:
         /*
@@ -30,8 +30,8 @@ rule ZLoader
             00104bd6 88 1c 3e        MOV        byte ptr [ESI + EDI*0x1],BL
             00104bd9 8d 7f 01        LEA        EDI,[EDI + 0x1]
         */
-        $code = { 89 f8 8b 0d ?? ?? ?? ?? 99 f7 7? ?? 8b 4? ?? 0f b6 1c ?? 32 
-    1c 38 88 1c 3e 8d 7f 01 74 ?? e8 ?? ?? ?? ?? 80 fb 7f 74 ?? 38 c3 7d 
+        $code = { 89 f8 8b 0d ?? ?? ?? ?? 99 f7 7? ?? 8b 4? ?? 0f b6 1c ?? 32
+    1c 38 88 1c 3e 8d 7f 01 74 ?? e8 ?? ?? ?? ?? 80 fb 7f 74 ?? 38 c3 7d
     ?? 80 fb 0d 77 ?? 0f b6 c3 b9 00 26 00 00 0f a3 c1 72 ?? }
         $dll = "antiemule-loader-bot32.dll" ascii wide fullword
         $s1 = "/post.php" ascii wide
@@ -42,5 +42,5 @@ rule ZLoader
         $s6 = "rhnbeqcuwzbsjwfsynex" ascii wide fullword
 
     condition:
-        $code or $dll or (2 of ($s*))
+        $code or $dll or (4 of ($s*))
 }
