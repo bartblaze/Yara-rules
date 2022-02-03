@@ -14,6 +14,7 @@ rule WhiteBlack
         description = "Identifies WhiteBlack ransomware."
         category = "MALWARE"
         malware_type = "RANSOMWARE"
+        malware = "WHITEBLACK"
         reference = "https://twitter.com/siri_urz/status/1377877204776976384"
 
     strings:
