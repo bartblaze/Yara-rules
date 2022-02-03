@@ -12,7 +12,7 @@ rule NLBrute
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies NLBrute, an RDP brute-forcing tool."
-        category = "TOOL"
+        category = "HACKTOOL"
 
     strings:
         $ = "SERVER:PORT@DOMAIN\\USER;PASSWORD" ascii wide

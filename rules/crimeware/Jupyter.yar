@@ -13,6 +13,7 @@ rule Jupyter
         author = "@bartblaze"
         description = "Identifies Jupyter aka SolarMarker, backdoor."
         category = "MALWARE"
+        malware = "SOLARMARKER"
         malware_type = "BACKDOOR"
 
     strings:

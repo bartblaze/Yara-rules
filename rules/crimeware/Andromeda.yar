@@ -13,6 +13,10 @@ rule Andromeda
         author = "@bartblaze"
         description = "Identifies Andromeda aka Gamarue botnet."
         category = "MALWARE"
+        malware = "ANDROMEDA"
+        malware_type = "WORM"
+
+
 
     strings:
 		//IndexerVolumeGuid

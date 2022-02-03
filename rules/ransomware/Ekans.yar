@@ -13,10 +13,12 @@ rule Ekans
         author = "@bartblaze"
         description = "Identifies Ekans aka Snake ransomware unpacked or in memory."
         category = "MALWARE"
+        malware = "EKANS"
         malware_type = "RANSOMWARE"
         actor_type = "APT"
         actor = "SNAKE"
         mitre_group = "TURLA"
+        mitre_att = "S0605"
 
     strings:
         $ = "already encrypted!" ascii wide

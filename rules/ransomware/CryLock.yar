@@ -13,6 +13,7 @@ rule CryLock
         author = "@bartblaze"
         description = "Identifies CryLock aka Cryakl ransomware."
         category = "MALWARE"
+        malware = "CRYLOCK"
         malware_type = "RANSOMWARE"
 
     strings:

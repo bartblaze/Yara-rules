@@ -13,7 +13,9 @@ rule Pysa
         author = "@bartblaze"
         description = "Identifies Pysa aka Mespinoza ransomware."
         category = "MALWARE"
+        malware = "PYSA"
         malware_type = "RANSOMWARE"
+        mitre_att = "S0583"
 
     strings:
         $code = { 8a 0? 41 84 c0 75 ?? 2b ce 8b 35 ?? ?? ?? ?? 8d 41 01 50 5? 6a 07 6a 00 68 ?? ?? ?? 

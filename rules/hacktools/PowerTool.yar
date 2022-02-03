@@ -15,6 +15,7 @@ rule PowerTool
         author = "@bartblaze"
         description = "Identifies PowerTool, sometimes used by attackers to disable security software."
         category = "MALWARE"
+        malware = "POWERTOOL"
         reference = "https://www.softpedia.com/get/Antivirus/Removal-Tools/ithurricane-PowerTool.shtml"
 
 

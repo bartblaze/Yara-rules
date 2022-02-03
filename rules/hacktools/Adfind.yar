@@ -12,7 +12,7 @@ rule Adfind
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies Adfind, a Command line Active Directory query tool."
-        category = "TOOL"
+        category = "HACKTOOL"
         tool = "ADFIND"
         mitre_att = "S0552"
         reference = "http://www.joeware.net/freetools/tools/adfind/"

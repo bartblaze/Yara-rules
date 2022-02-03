@@ -12,7 +12,8 @@ rule CreateMiniDump
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies CreateMiniDump, tool to dump LSASS."
-        category = "TOOL"
+        category = "HACKTOOL"
+        tool = "CREATEMINIDUMP"
         reference = "https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dumping-lsass-passwords-without-mimikatz-minidumpwritedump-av-signature-bypass"
 
 

@@ -12,7 +12,7 @@ rule Windows_Credentials_Editor
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies Windows Credentials Editor (WCE), post-exploitation tool."
-        category = "TOOL"
+        category = "HACKTOOL"
         tool = "WINDOWS CREDENTIAL EDITOR"
         mitre_att = "S0005"
         reference = "https://www.ampliasecurity.com/research/windows-credentials-editor/"

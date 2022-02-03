@@ -13,7 +13,9 @@ rule Avaddon
         author = "@bartblaze"
         description = "Identifies Avaddon ransomware."
         category = "MALWARE"
+        malware = "AVADDON"
         malware_type = "RANSOMWARE"
+        mitre_att = "S0640"
 
     strings:
         $s1 = "\"ext\":" ascii wide

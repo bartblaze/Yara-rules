@@ -13,6 +13,7 @@ rule Satan_Mutexes
         author = "@bartblaze"
         description = "Identifies Satan ransomware (and its variants) by mutex."
         category = "MALWARE"
+        malware = "SATAN"
         malware_type = "RANSOMWARE"
         reference = "https://bartblaze.blogspot.com/2020/01/satan-ransomware-rebrands-as-5ss5c.html"
 

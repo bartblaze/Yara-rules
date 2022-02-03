@@ -13,6 +13,8 @@ rule IISRaid
         author = "@bartblaze"
         description = "Identifies IISRaid."
         category = "MALWARE"
+        malware = "IISRAID"
+        malware_type = "BACKDOOR"
         reference = "https://github.com/0x09AL/IIS-Raid"
 
 

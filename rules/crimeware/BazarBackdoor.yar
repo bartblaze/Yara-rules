@@ -13,7 +13,9 @@ rule BazarBackdoor
         author = "@bartblaze"
         description = "Identifies Bazar backdoor."
         category = "MALWARE"
+        malware = "BAZAR BACKDOOR"
         malware_type = "BACKDOOR"
+        mitre_att = "S0534"
         reference = "https://www.bleepingcomputer.com/news/security/bazarbackdoor-trickbot-gang-s-new-stealthy-network-hacking-malware/"
 
 

@@ -13,6 +13,7 @@ rule DearCry
         author = "@bartblaze"
         description = "Identifies DearCry ransomware."
         category = "MALWARE"
+        malware = "DEARCRY"
         malware_type = "RANSOMWARE"
         reference = "https://twitter.com/MsftSecIntel/status/1370236539427459076"
 

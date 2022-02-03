@@ -13,7 +13,9 @@ rule ArechClient
         author = "@bartblaze"
         description = "Identifies ArechClient, infostealer."
         category = "MALWARE"
+        malware = "ARECHCLIENT"
         malware_type = "INFOSTEALER"
+
 
     strings:
         $ = "is_secure" ascii wide

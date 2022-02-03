@@ -13,6 +13,8 @@ rule Confucius_B
         author = "@bartblaze"
         description = "Identifies Confucius malware."
         category = "MALWARE"
+        malware = "CONFUCIUS"
+        malware_type = "BACKDOOR"
         reference = "https://unit42.paloaltonetworks.com/unit42-confucius-says-malware-families-get-further-by-abusing-legitimate-websites/"
 
 
