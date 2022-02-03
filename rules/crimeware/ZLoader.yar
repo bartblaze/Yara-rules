@@ -1,8 +1,6 @@
 rule ZLoader
 {
     meta:
-        id = "xfzVwf5UZhNIYbs64U8Dc"
-        fingerprint = "5b34c474e105a29726c77c573468b3b521ec77633a1a2bbbe7f2f94587a2800f"
         version = "1.0"
         creation_date = "2020-04-01"
         first_imported = "2021-12-30"

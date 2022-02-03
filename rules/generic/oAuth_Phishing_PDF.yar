@@ -3,7 +3,7 @@ rule oAuth_Phishing_PDF
 meta:
 	description = "Identifies potential phishing PDFs that target oAuth."
 	author = "@bartblaze"
-	date = "2022-01"
+	date = "2022-01-01"
 	reference = "https://twitter.com/ffforward/status/1484127442679836676"
 	tlp = "White"
 

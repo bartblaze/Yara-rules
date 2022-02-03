@@ -3,7 +3,7 @@ rule WhiteBlack
 meta:
 	description = "Identifies WhiteBlack ransomware."
 	author = "@bartblaze"
-	date = "2022-01"
+	date = "2022-01-01"
 	reference = "https://twitter.com/siri_urz/status/1377877204776976384"
 	tlp = "White"
 
