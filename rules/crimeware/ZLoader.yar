@@ -1,10 +1,12 @@
 rule ZLoader
 {
     meta:
+        id = "2JUpH4J7F9VVLnQm59k5t9"
+        fingerprint = "b6cc36932d196457ad66df7815f1eb3a5e8561686d9184286a375bc78a209db0"
         version = "1.0"
         creation_date = "2020-04-01"
         first_imported = "2021-12-30"
-        last_modified = "2021-12-30"
+        last_modified = "2022-02-03"
         status = "RELEASED"
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
