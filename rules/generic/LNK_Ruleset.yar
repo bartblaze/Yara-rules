@@ -14,7 +14,7 @@ private rule isLNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Private rule identifying shortcut (LNK) files. To be used in conjunction with the other LNK rules below."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $lnk = { 4C 00 00 00 01 14 02 00 }
@@ -37,7 +37,7 @@ rule PS_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies PowerShell artefacts in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = ".ps1" ascii wide nocase
@@ -71,7 +71,7 @@ rule Script_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies scripting artefacts in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = "javascript" ascii wide nocase
@@ -109,7 +109,7 @@ rule EXE_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies executable artefacts in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = ".exe" ascii wide nocase
@@ -137,7 +137,7 @@ rule Archive_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies archive (compressed) files in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = ".7z" ascii wide nocase
@@ -173,7 +173,7 @@ rule Execution_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies execution artefacts in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = "cmd.exe" ascii wide nocase
@@ -205,7 +205,7 @@ rule Compilation_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies compilation artefacts in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = "vbc.exe" ascii wide nocase
@@ -229,7 +229,7 @@ rule Download_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies download artefacts in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = "bitsadmin" ascii wide nocase
@@ -257,7 +257,7 @@ rule MSOffice_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies Microsoft Office artefacts in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = "winword" ascii wide nocase
@@ -291,7 +291,7 @@ rule PDF_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies Adobe Acrobat artefacts in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = ".pdf" ascii wide nocase
@@ -315,7 +315,7 @@ rule Flash_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies Adobe Flash artefacts in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = ".swf" ascii wide nocase
@@ -338,8 +338,7 @@ rule SMB_in_LNK
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
         author = "@bartblaze"
-        description = "Identifies SMB (share) artefacts in shortcut (LNK) files."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = "\\c$\\" ascii wide nocase
@@ -363,7 +362,7 @@ rule Long_RelativePath_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies shortcut (LNK) file with a long relative path. Might be used in an attempt to hide the path."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = "..\\..\\..\\..\\" ascii wide nocase
@@ -386,7 +385,7 @@ rule Large_filesize_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies shortcut (LNK) file larger than 100KB. Most goodware LNK files are smaller than 100KB."
-        category = "MALWARE"
+        category = "INFO"
 
     condition:
         isLNK and filesize >100KB
@@ -406,7 +405,7 @@ rule High_Entropy_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies shortcut (LNK) file with equal or higher entropy than 6.5. Most goodware LNK files have a low entropy, lower than 6."
-        category = "MALWARE"
+        category = "INFO"
 
     condition:
         isLNK and math.entropy(0, filesize )>=6.5
@@ -426,7 +425,7 @@ rule CDN_in_LNK
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies CDN (Content Delivery Network) domain in shortcut (LNK) file."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = "cdn." ascii wide nocase
