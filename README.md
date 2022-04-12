@@ -49,4 +49,4 @@ The rules in this repo are TLP:White.
 More information: https://www.us-cert.gov/tlp
 
 ## Where can I find other open-source Yara rules?
-InQuest has made a Github repo which contains a curated list of Yara rules. It can be found here: https://github.com/InQuest/awesome-yara
+InQuest has made a Github repo which contains a curated list of Yara rules: https://github.com/InQuest/awesome-yara.
