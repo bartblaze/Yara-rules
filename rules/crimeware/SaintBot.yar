@@ -4,7 +4,7 @@ rule SaintBot
         id = "5zQ5DvA1lpgHKfGgGgFvvp"
         fingerprint = "f8ed9e3cdd5411e2bda7495c8b00b8e69e8f495db97cf542f6a1f3b790bef7a5"
         version = "1.0"
-        creation_date = "2021-07-29"
+        creation_date = "2022-07-29"
         first_imported = "2022-07-29"
         last_modified = "2022-07-29"
         status = "RELEASED"
