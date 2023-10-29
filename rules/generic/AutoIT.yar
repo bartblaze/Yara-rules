@@ -36,7 +36,7 @@ rule AutoIT_Script
         version = "1.0"
         creation_date = "2020-09-01"
         first_imported = "2021-12-30"
-        last_modified = "2021-12-30"
+        last_modified = "2023-10-29"
         status = "RELEASED"
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
@@ -53,6 +53,7 @@ rule AutoIT_Script
         $ = ">>>AUTOIT NO CMDEXECUTE<<<" ascii wide
         $ = ">>>AUTOIT SCRIPT<<<" ascii wide
         $ = "This is a third-party compiled AutoIt script." ascii wide
+        $ = "AU3!EA06" ascii wide
 
     condition:
         uint16(0)!=0x5A4D and any of them
