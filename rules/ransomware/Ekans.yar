@@ -6,7 +6,7 @@ rule Ekans
         version = "1.0"
         creation_date = "2020-03-01"
         first_imported = "2021-12-30"
-        last_modified = "2021-12-30"
+        last_modified = "2023-12-24"
         status = "RELEASED"
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
@@ -15,28 +15,13 @@ rule Ekans
         category = "MALWARE"
         malware = "EKANS"
         malware_type = "RANSOMWARE"
-        actor_type = "APT"
-        actor = "SNAKE"
-        mitre_group = "TURLA"
-        mitre_att = "S0605"
 
     strings:
         $ = "already encrypted!" ascii wide
-        $ = "cant kill process %v : %v" ascii wide
-        $ = "could not access service: %v" ascii wide
-        $ = "could not retrieve service status: %v" ascii wide
-        $ = "could not send control=%d: %v" ascii wide
         $ = "error encrypting %v : %v" ascii wide
         $ = "faild to get process list" ascii wide
-        $ = "priority files: %v" ascii wide
-        $ = "priorityFiles: %v" ascii wide
-        $ = "pub: %v" ascii wide
-        $ = "root: %v" ascii wide
-        $ = "There can be only one" ascii wide
-        $ = "timeout waiting for service to go to state=%d" ascii wide
-        $ = "Toatal files: %v" ascii wide
-        $ = "total lengt: %v" ascii wide
-        $ = "worker %s started job %s" ascii wide
+        $ = "There can be only one" ascii wide fullword
+        $ = "total lengt: %v" ascii wide fullword
 
     condition:
         3 of them
