@@ -12,6 +12,9 @@ You can use them in your detection systems. For example, [CAPE sandbox](https://
 
 All rules are TLP:White, so you can use and distribute them freely. Please retain the meta. 
 
+## Help! A generic rule is hitting my software!
+If one of the rules in the [generic](https://github.com/bartblaze/Yara-rules/tree/master/rules/generic) rules section hits on your software: this is not a false positive. It is simply an objective fact that, for example, your software has been compiled or wrapped using AutoIT. It equally does **not** mean your software is malicious.
+
 ## Actions
 There's two workflows running on this Github repository:
 
@@ -26,11 +29,6 @@ v3.3.0 is minimally needed, as some rules may require a specific module. Note th
 
 ## Feedback?
 If you spot an issue or improvement with one of the rules, feel free to submit a PR!
-
-## Help! A generic rule is hitting my software!
-If one of the rules in the [generic](https://github.com/bartblaze/Yara-rules/tree/master/rules/generic) rules section hits on your software: this is not a false positive. It is simply an objective fact that, for example, your software has been compiled or wrapped using AutoIT. It equally does **not** mean your software is malicious.
-
-
 
 # Extra
 
