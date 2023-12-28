@@ -14,7 +14,7 @@ rule PyInstaller
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
         author = "@bartblaze"
-        description = "Identifies executable converted using PyInstaller."
+        description = "Identifies executable converted using PyInstaller. This rule by itself does NOT necessarily mean the detected file is malicious."
         category = "INFO"
 
     strings:
