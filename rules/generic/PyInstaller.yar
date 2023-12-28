@@ -9,13 +9,13 @@ rule PyInstaller
         version = "1.0"
         creation_date = "2020-01-01"
         first_imported = "2021-12-30"
-        last_modified = "2021-12-30"
+        last_modified = "2023-12-28"
         status = "RELEASED"
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies executable converted using PyInstaller."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $ = "pyi-windows-manifest-filename" ascii wide
