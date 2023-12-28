@@ -6,13 +6,13 @@ rule AutoIT_Compiled
         version = "1.0"
         creation_date = "2020-09-01"
         first_imported = "2021-12-30"
-        last_modified = "2021-12-30"
+        last_modified = "2023-12-28"
         status = "RELEASED"
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
         author = "@bartblaze"
-        description = "Identifies compiled AutoIT script (as EXE)."
-        category = "MALWARE"
+        description = "Identifies compiled AutoIT script (as EXE). This rule by itself does NOT necessarily mean the detected file is malicious."
+        category = "INFO"
 
     strings:
         $ = "#OnAutoItStartRegister" ascii wide
@@ -36,13 +36,13 @@ rule AutoIT_Script
         version = "1.0"
         creation_date = "2020-09-01"
         first_imported = "2021-12-30"
-        last_modified = "2023-10-29"
+        last_modified = "2023-12-28"
         status = "RELEASED"
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
         author = "@bartblaze"
-        description = "Identifies AutoIT script."
-        category = "MALWARE"
+        description = "Identifies AutoIT script.  This rule by itself does NOT necessarily mean the detected file is malicious."
+        category = "INFO"
 
     strings:
         $ = "#OnAutoItStartRegister" ascii wide
