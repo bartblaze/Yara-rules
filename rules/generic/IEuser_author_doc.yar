@@ -12,7 +12,7 @@ rule IEuser_author_doc
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies Microsoft Word documents created with the default user on IE11 test VMs, more likely to be suspicious."
-        category = "MALWARE"
+        category = "INFO"
         reference = "https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/"
 
 
