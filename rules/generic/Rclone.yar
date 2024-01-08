@@ -15,8 +15,7 @@ rule Rclone
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies Rclone, sometimes used by attackers to exfiltrate data."
-        category = "MALWARE"
-        malware_type = "INFOSTEALER"
+        category = "INFO"
         reference = "https://rclone.org/"
 
 
