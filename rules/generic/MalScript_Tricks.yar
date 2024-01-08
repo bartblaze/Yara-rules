@@ -12,7 +12,7 @@ rule MalScript_Tricks
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies tricks often seen in malicious scripts such as moving the window off-screen or resizing it to zero."
-        category = "MALWARE"
+        category = "INFO"
 
     strings:
         $s1 = "window.moveTo -" ascii wide nocase
