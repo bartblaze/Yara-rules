@@ -12,7 +12,7 @@ rule Specialist_Repack_Doc
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies Office documents created by a cracked Office version, SPecialiST RePack."
-        category = "MALWARE"
+        category = "INFO"
         reference = "https://twitter.com/malwrhunterteam/status/1483132689586831365"
 
     strings:
