@@ -8,12 +8,13 @@ To contribute to the community.
 ## Can I use these rules?
 Of course! That's why I created this repo. 
 
-You can use them in your detection systems. For example, [CAPE sandbox](https://github.com/kevoreilly/CAPEv2), [MalwareBazaar](https://bazaar.abuse.ch/) and [VirusTotal](https://www.virustotal.com/) (must be logged in) are using these rules. Furthermore, the rules can work natively with [AssemblyLine](https://www.cyber.gc.ca/en/tools-services/assemblyline) due to the CCCS Yara rule standard adoption.
+You can use them in your detection systems. For example, [CAPE sandbox](https://github.com/kevoreilly/CAPEv2), [MalwareBazaar](https://bazaar.abuse.ch/) and [VirusTotal](https://www.virustotal.com/) (must be logged in) and others are using these rules. Furthermore, the rules can work natively with [AssemblyLine](https://www.cyber.gc.ca/en/tools-services/assemblyline) due to the CCCS Yara rule standard adoption.
 
 All rules are TLP:White, so you can use and distribute them freely. Please retain the meta. 
 
 ## Help! A generic rule is hitting my software!
-If one of the rules in the [generic](https://github.com/bartblaze/Yara-rules/tree/master/rules/generic) rules section hits on your software: this is not a false positive. It is simply an objective fact that, for example, your software has been compiled or wrapped using AutoIT. It equally does **not** mean your software is malicious.
+If one of the rules in the [generic](https://github.com/bartblaze/Yara-rules/tree/master/rules/generic) rules section hits on your software: this is not a false positive. It is simply an objective fact that, for example, your software has been compiled or wrapped using AutoIT. It equally does **not** mean your software is malicious. 
+Note the meta also mentions _category = "INFO"_, in which case it is a purely generic or informational rule.
 
 ## Actions
 There's two workflows running on this Github repository:
