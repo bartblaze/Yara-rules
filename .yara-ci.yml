@@ -8,5 +8,4 @@ false_positives:
    - file: "rules/generic/AutoIT.yar"
    - file: "rules/generic/Specialist_Repack_Doc.yar"
 false_negatives:
-  ignore:
-   - file: "rules/crimeware/Unk_Crime_Downloader_2.yar"
+  disabled: true
