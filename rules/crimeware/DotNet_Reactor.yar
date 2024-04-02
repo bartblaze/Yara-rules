@@ -1,19 +1,18 @@
-rule PureCrypter
+rule DotNet_Reactor
 {
     meta:
         id = "1zLgWF57AJIATVZNMOyilu"
         fingerprint = "43687ec89c0f6dc52e93395ae5966e25bc1c2d2c7634936b6e9835773af19fa3"
-        version = "1.0"
+        version = "1.1"
         date = "2024-03-20"
-        modified = "2024-03-21"
+        modified = "2024-04-02"
         status = "RELEASED"
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
         author = "@bartblaze"
-        description = "Identifies PureCrypter, .NET loader and obfuscator."
-        category = "MALWARE"
-        malware_type = "LOADER"
-        reference = "https://malpedia.caad.fkie.fraunhofer.de/details/win.purecrypter"
+        description = "Identifies .NET Reactor, which offers .NET code protection such as obfuscation, encryption and so on."
+        category = "INFO"
+        reference = "https://www.eziriz.com/dotnet_reactor.htm"
 
 strings:
     $s1 = "{11111-22222-20001-00001}" ascii wide fullword
