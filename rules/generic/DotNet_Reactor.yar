@@ -12,7 +12,8 @@ rule DotNet_Reactor
         author = "@bartblaze"
         description = "Identifies .NET Reactor, which offers .NET code protection such as obfuscation, encryption and so on."
         category = "INFO"
-        reference = "https://www.eziriz.com/dotnet_reactor.htm"
+        reference_a = "https://www.eziriz.com/dotnet_reactor.htm"
+        reference_b = "https://unprotect.it/technique/net-reactor/"
 
 strings:
     $s1 = "{11111-22222-20001-00001}" ascii wide fullword
