@@ -8,7 +8,7 @@ To contribute to the community.
 ## Can I use these rules?
 Of course! That's why I created this repo. 
 
-You can use them in your detection systems. For example, [CAPE sandbox](https://github.com/kevoreilly/CAPEv2), [MalwareBazaar](https://bazaar.abuse.ch/), [UnPac.me](https://www.unpac.me/) and [VirusTotal](https://www.virustotal.com/) (must be logged in) and others are using these rules. Furthermore, the rules can work natively with [AssemblyLine](https://www.cyber.gc.ca/en/tools-services/assemblyline) due to the CCCS Yara rule standard adoption.
+You can use them in your detection systems. For example, [CAPE sandbox](https://github.com/kevoreilly/CAPEv2), [MalwareBazaar](https://bazaar.abuse.ch/), [UnPac.me](https://www.unpac.me/) and [VirusTotal](https://www.virustotal.com/) (must be logged in, signup is free) and others are using these rules. Furthermore, the rules can work natively with [AssemblyLine](https://www.cyber.gc.ca/en/tools-services/assemblyline) due to the CCCS Yara rule standard adoption.
 
 All rules are TLP:White, so you can use and distribute them freely. Please retain the meta. 
 
@@ -21,7 +21,7 @@ Note the meta also mentions _category = "**INFO**"_, in which case it is a purel
 There's two workflows running on this Github repository:
 
 * [YARA-CI](https://yara-ci.cloud.virustotal.com/): runs automatically to detect signature errors, as well as false positives and negatives.
-* [Package Yara rules](https://github.com/bartblaze/Yara-rules/blob/master/.github/workflows/yara.yml): allows download of a complete rules file (all Yara rules from this repo in one file) for convenience from the Actions tab > Artifacts (see image below).
+* [Package Yara rules](https://github.com/bartblaze/Yara-rules/blob/master/.github/workflows/yara.yml): allows download of a complete rules file (all Yara rules from this repo in one file) for convenience from the Actions tab > Choose the last workflow run > Artifacts (see image below).
 
 ![image](https://user-images.githubusercontent.com/3075118/113322817-731feb00-9315-11eb-86ab-94f133f07038.png)
 
@@ -30,8 +30,11 @@ There's two workflows running on this Github repository:
 ## Minimum Yara version needed?
 v3.3.0 is minimally needed, as some rules may require a specific module. Note that it's recommended to always use the latest Yara version as found [here](https://github.com/VirusTotal/yara/releases).
 
+## Do the rules work with Yara-X?
+[Yara-X](https://github.com/VirusTotal/yara-x), a rewrite of Yara in Rust, should have no difficulty running the rules in this repo. At time of writing, Yara-X v0.4.0 works fine with the rules presented here.
+
 ## Feedback?
-If you spot an issue or improvement with one of the rules, feel free to submit a PR!
+If you spot an issue or improvement with one of the rules, feel free to submit a PR or open an Issue.
 
 # Extra
 
