@@ -13,7 +13,9 @@ You can use them in your detection systems. For example, [CAPE sandbox](https://
 All rules are TLP:White, so you can use and distribute them freely. Please retain the meta. 
 
 ## Help! A generic rule is hitting my software!
-If one of the rules in the [generic](https://github.com/bartblaze/Yara-rules/tree/master/rules/generic) rules section hits on your software: this is not a false positive. It is simply an objective fact that, for example, your software has been compiled or wrapped using AutoIT. It equally does **not** mean your software is malicious. The Yara rules presented here do **not** influence antivirus detection results in any manner. If your software is detected by an antivirus or antimalware company, you need to contact them directly.
+If one of the rules in the [generic](https://github.com/bartblaze/Yara-rules/tree/master/rules/generic) rules section hits on your software: this is not a false positive. It is simply an objective fact that, for example, your software has been compiled or wrapped using AutoIT. It equally does **not** mean your software is malicious. 
+
+The Yara rules presented here do **not** influence antivirus detection results in any manner. If your software is detected by an antivirus or antimalware company, **you need to contact them directly**.
 
 Note the `meta` section also mentions `category = "INFO"`, in which case it is a purely generic or informational rule.
 
