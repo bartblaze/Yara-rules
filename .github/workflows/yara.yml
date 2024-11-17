@@ -9,7 +9,7 @@ jobs:
     steps:
       # Checks-out the repository under $GITHUB_WORKSPACE
       - name: Check-out the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       # Assemble all *.yar files
       - name: Assemble all Yara files
@@ -17,7 +17,7 @@ jobs:
 
       # Upload the assembled Yara artifact
       - name: Upload the resulting Yara artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: rules.yar
           path: rules.yar
