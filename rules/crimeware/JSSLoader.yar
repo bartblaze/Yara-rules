@@ -33,5 +33,5 @@ rule JSSLoader
         $x5 = "Sending initial request failed, error code" ascii wide
 
     condition:
-        filesize <200KB and all of ($s*) or 3 of ($x*)
+        filesize <200KB and (all of ($s*) or 3 of ($x*))
 }
