@@ -6,7 +6,7 @@ rule RoyalRoad_RTF
         version = "1.0"
         creation_date = "2020-01-01"
         first_imported = "2021-12-30"
-        last_modified = "2025-03-17"
+        last_modified = "2025-03-10"
         status = "RELEASED"
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
