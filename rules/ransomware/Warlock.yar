@@ -10,7 +10,7 @@ rule Warlock
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
         author = "@bartblaze"
-        description = "Identifies Warlock ransomware used by Storm-2603. It appears to be known as x2anylock ransomware and is a potential Lockbit derivative."
+        description = "Identifies Warlock ransomware used by Storm-2603. It is also known as x2anylock ransomware and is a Lockbit (Black) derivative."
         category = "MALWARE"
         malware = "WARLOCK"
         malware_type = "RANSOMWARE"
