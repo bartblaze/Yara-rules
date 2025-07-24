@@ -16,6 +16,7 @@ rule IIS_Backdoor
         malware = "IISBACKDOOR"
         malware_type = "BACKDOOR"
         reference = "https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities"
+        reference = "https://github.com/WBGlIl/IIS_backdoor"
         hash = "6f6db63ece791c6dc1054f1e1231b5bbcf6c051a49bad0784569271753e24619"
 
     strings:
