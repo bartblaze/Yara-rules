@@ -33,8 +33,7 @@ rule SharpAdidnsdump
         $SharpAdidnsdump = "SharpAdidnsdump" fullword
 
     condition:
-        5 of ($str_*) or 
-        (4 of ($str_*) and any of ($clear_*)) or
+        (3 of ($str_*) and any of ($clear_*)) or
         $SharpAdidnsdump or
         dotnet.guids[0]=="8f985494-906c-485c-b3b3-0e90aa7d3ca7"
 }
