@@ -15,6 +15,7 @@ rule GhostShell_SharePoint
         category = "TOOL"
         tool = "GHOSTSHELL"
         reference = "https://x.com/marius_benthin/status/1948761502334267478"
+        hash = "7e9b77da1f51d03ee2f96bc976f6aeb781f801cf633862a4b8c356cbb555927d"
 
     strings:
         $aspx = ".aspx" ascii wide nocase
