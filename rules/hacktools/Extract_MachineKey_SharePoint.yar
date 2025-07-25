@@ -18,12 +18,13 @@ rule Extract_MachineKey_SharePoint
         hash = "3461da3a2ddcced4a00f87dcd7650af48f97998a3ac9ca649d7ef3b7332bd997"
 
     strings:
+        $xml = "<?xml" nocase
+	
         $httpcontext = "HttpContext" fullword
         $validation = "MachineKeyValidation"
 
         $mks_a = "MachineKeySection"
         $mks_b = "System.Web.Configuration.MachineKeySection"
-
 
         $str_a = "-------------------- .NET Properties --------------------"
         $str_b = "Number of Logical Drives:"
@@ -39,10 +40,12 @@ rule Extract_MachineKey_SharePoint
         $str_l = "-------------------- Environment Variables --------------------"
 
     condition:
-        ($httpcontext and $validation and any of ($mks_*)) or (any of ($mks_*, $validation) and 8 of ($str_*)) or
+        not $xml at 0 and (
+		($httpcontext and $validation and any of ($mks_*)) or (any of ($mks_*, $validation) and 8 of ($str_*)) or
         dotnet.guids[0]=="64c708ee-5f26-4eef-b474-651321a0e469" or
         dotnet.guids[0]=="a253a3d9-f7e6-484e-b392-685b0b7a9c5d" or
         dotnet.guids[0]=="ab423cff-901e-4882-9939-bf1b54eddffb" or
         dotnet.guids[0]=="63e8005d-08a3-423d-ab6b-53cc05629d457" or
         dotnet.guids[0]=="de37ec6b-4312-4073-81ea-903f0a340a11"
+		)
 }
