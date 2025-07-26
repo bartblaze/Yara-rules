@@ -40,8 +40,8 @@ rule Extract_MachineKey_SharePoint
         $str_l = "-------------------- Environment Variables --------------------"
 
     condition:
-        not $xml at 0 and (
-		($httpcontext and $validation and any of ($mks_*)) or (any of ($mks_*, $validation) and 8 of ($str_*)) or
+        not $xml in (0..10) and (
+        ($httpcontext and $validation and any of ($mks_*)) or (any of ($mks_*, $validation) and 8 of ($str_*)) or
         dotnet.guids[0]=="64c708ee-5f26-4eef-b474-651321a0e469" or
         dotnet.guids[0]=="a253a3d9-f7e6-484e-b392-685b0b7a9c5d" or
         dotnet.guids[0]=="ab423cff-901e-4882-9939-bf1b54eddffb" or
