@@ -12,7 +12,7 @@ rule Responder
         source = "BARTBLAZE"
         author = "@bartblaze"
         description = "Identifies Responder, an LLMNR, NBT-NS and MDNS poisoner."
-        category = "TOOL"
+        category = "MALWARE"
         malware_type = "HACKTOOL"
         tool = "RESPONDER"
         mitre_att = "S0174"
