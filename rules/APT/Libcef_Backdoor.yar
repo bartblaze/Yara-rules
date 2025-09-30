@@ -10,7 +10,7 @@ rule Libcef_Backdoor
         sharing = "TLP:WHITE"
         source = "BARTBLAZE"
         author = "@bartblaze"
-        description = "Identifies backdoored libcef.dll, used by an unknown (likely) APT."
+        description = "Identifies backdoored libcef.dll, used by an unknown (likely) APT. Uses Telegram for exfil."
         category = "MALWARE"
         malware = "UNKNOWN"
         malware_type = "BACKDOOR"
